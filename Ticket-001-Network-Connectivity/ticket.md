@@ -128,4 +128,20 @@ Corrected the DNS server configuration and verified successful domain-name resol
 
 ## Evidence
 
-Screenshots documenting the troubleshooting and resolution process are included with this ticket.
+### Network Configuration
+
+Verified the device received a valid IP address, subnet mask and default gateway through DHCP.
+
+![Network Configuration](screenshots/01-network-configuration.png)
+
+### Default Gateway Connectivity
+
+Confirmed communication with the local network gateway. Four packets were transmitted and received with 0% packet loss.
+
+![Default Gateway Ping](screenshots/02-default-gateway-ping.png)
+
+### DNS Diagnosis and Resolution
+
+Confirmed that internet connectivity remained functional while DNS resolution failed. Identified the incorrect DNS server (`127.0.0.1`), changed it to `8.8.8.8`, and verified successful DNS resolution using `nslookup`.
+
+![DNS Diagnosis and Resolution](screenshots/03-dns-diagnosis-and-resolution.png)
