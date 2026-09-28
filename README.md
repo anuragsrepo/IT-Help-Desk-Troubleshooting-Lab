@@ -66,6 +66,19 @@ This repository demonstrates practical Level 1 IT support skills through realist
 
 ➡️ [View Ticket #002](./Ticket-002-File-Permissions/ticket.md)
 
+
+### Ticket #003 — Application Fails to Launch
+
+**Issue:** User reports that a required application will not launch and returns a "Permission denied" error.
+
+**Investigation:** Verified the application file permissions and identified that the execute permission was missing.
+
+**Root Cause:** The application did not have execute permission, preventing macOS from launching the script.
+
+**Resolution:** Restored execute permission using `chmod +x` and verified that the application launched successfully.
+
+➡️ [View Ticket #003](./Ticket-003-Application-Troubleshooting/ticket.md)
+
 ---
 
 ## Project Purpose
