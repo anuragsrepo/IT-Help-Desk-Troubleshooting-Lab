@@ -166,6 +166,34 @@ Verified the updated permissions and successfully launched the application.
 
 ---
 
+## Evidence
+
+### Application Initially Working
+
+Confirmed that the application had execute permissions and launched successfully before reproducing the issue.
+
+![Application Working](screenshots/01-application-working.png)
+
+### Application Launch Failure
+
+Reproduced the reported issue by removing execute permissions. Attempting to launch the application returned a "Permission denied" error.
+
+![Application Launch Failure](screenshots/02-application-launch-failure.png)
+
+### Permission Diagnosis and Fix
+
+Inspected the file permissions, identified that execute permission was missing, restored execute permission and verified the updated permissions.
+
+![Permission Diagnosis and Fix](screenshots/03-permission-diagnosis-and-fix.png)
+
+### Resolution Verification
+
+Launched the application after correcting the permissions and confirmed that it started successfully.
+
+![Application Resolution Verification](screenshots/04-application-resolution-verification.png)
+
+---
+
 ## Skills Demonstrated
 
 - Application troubleshooting
