@@ -138,6 +138,34 @@ File creation was successfully tested after the cleanup to verify the resolution
 
 ---
 
+## Evidence
+
+### Initial Storage Environment
+
+Confirmed the simulated storage environment contained a 500 MB cache file, 200 MB backup file and 50 MB work document.
+
+![Initial Storage Environment](screenshots/01-storage-environment.png)
+
+### Storage Diagnosis
+
+Analysed directory storage usage and sorted files by size. The investigation identified `large-cache.dat` as the largest file, consuming approximately 500 MB.
+
+![Storage Diagnosis](screenshots/02-storage-diagnosis.png)
+
+### Cache Removal and Storage Recovery
+
+Removed the unnecessary cache file and verified that directory storage usage decreased from approximately 752 MB to 250 MB.
+
+![Cache Removal and Storage Recovery](screenshots/03-cache-removal-and-storage-recovery.png)
+
+### Resolution Verification
+
+Created and read a test file after the cleanup to confirm that file creation was functioning successfully.
+
+![Save Test Verification](screenshots/04-save-test-verification.png)
+
+---
+
 ## Skills Demonstrated
 
 - Storage troubleshooting
