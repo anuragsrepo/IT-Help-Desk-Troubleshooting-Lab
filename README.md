@@ -20,6 +20,10 @@ This repository demonstrates practical Level 1 IT support skills through realist
 - File permission troubleshooting
 - Unix/macOS permission management
 - User and ownership verification
+- Resolution verification
+- Application troubleshooting
+- Storage and disk usage troubleshooting
+- File and directory management
 
 ---
 
@@ -36,6 +40,10 @@ This repository demonstrates practical Level 1 IT support skills through realist
 - chmod
 - ls -l
 - whoami
+- `df`
+- `du`
+- `sort`
+- `rm`
 
 ---
 
