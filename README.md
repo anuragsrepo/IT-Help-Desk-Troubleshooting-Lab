@@ -79,6 +79,19 @@ This repository demonstrates practical Level 1 IT support skills through realist
 
 ➡️ [View Ticket #003](./Ticket-003-Application-Troubleshooting/ticket.md)
 
+
+### Ticket #004 — Storage Space / Unable to Save Files
+
+**Issue:** User reports storage-related issues and is unable to reliably save new files.
+
+**Investigation:** Analysed disk and directory storage usage, then sorted files by size to identify unnecessary storage consumption.
+
+**Root Cause:** A large unnecessary cache file was consuming significant storage within the simulated environment.
+
+**Resolution:** Removed the unnecessary cache file, reducing storage usage from approximately 752 MB to 250 MB, and verified successful file creation.
+
+➡️ [View Ticket #004](./Ticket-004-Storage-Troubleshooting/ticket.md)
+
 ---
 
 ## Project Purpose
