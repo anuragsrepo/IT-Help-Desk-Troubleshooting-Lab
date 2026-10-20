@@ -24,6 +24,9 @@ This repository demonstrates practical Level 1 IT support skills through realist
 - Application troubleshooting
 - Storage and disk usage troubleshooting
 - File and directory management
+- System performance troubleshooting
+- CPU utilisation analysis
+- Process identification and management
 
 ---
 
@@ -44,6 +47,9 @@ This repository demonstrates practical Level 1 IT support skills through realist
 - `du`
 - `sort`
 - `rm`
+- `top`
+- `ps`
+- `kill`
 
 ---
 
@@ -99,6 +105,16 @@ This repository demonstrates practical Level 1 IT support skills through realist
 **Resolution:** Removed the unnecessary cache file, reducing storage usage from approximately 752 MB to 250 MB, and verified successful file creation.
 
 ➡️ [View Ticket #004](./Ticket-004-Storage-Troubleshooting/ticket.md)
+
+
+### Ticket #005 — Slow Mac / High CPU Usage
+
+- **Issue:** User reports slow system performance and applications taking longer to respond.
+- **Investigation:** Analysed CPU utilisation and identified a background process consuming 99.7% of one CPU core.
+- **Root Cause:** A resource-intensive background process was consuming excessive CPU resources in the simulated environment.
+- **Resolution:** Terminated the process using `kill`, confirmed it was no longer running, and verified CPU idle capacity at 81.65%.
+
+[View Ticket #005](Ticket-005-High-CPU-Usage/ticket.md)
 
 ---
 
